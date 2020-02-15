@@ -4,6 +4,20 @@
 
 [1]: https://pypi.org/project/google-cloud-storage/#history
 
+## [1.27.0](https://www.github.com/googleapis/python-storage/compare/v1.26.0...v1.27.0) (2020-02-15)
+
+
+### Features
+
+* generate signed URLs for blobs/buckets using virtual hostname ([#58](https://www.github.com/googleapis/python-storage/issues/58)) ([23df542](https://www.github.com/googleapis/python-storage/commit/23df542d0669852b05139023d5ef1ae14a09f4c7))
+
+
+### Bug Fixes
+
+* **storage:** fix blob metadata to None regression ([#60](https://www.github.com/googleapis/python-storage/issues/60)) ([a834d1b](https://www.github.com/googleapis/python-storage/commit/a834d1b54aa96152ced4d841c4e0c241acd2d8d8))
+* add classifer for Python 3.8 ([#63](https://www.github.com/googleapis/python-storage/issues/63)) ([1b9b6bc](https://www.github.com/googleapis/python-storage/commit/1b9b6bc2601ee336a8399266852fb850e368b30a))
+* make v4 signing formatting consistent w/ spec ([#56](https://www.github.com/googleapis/python-storage/issues/56)) ([8712da8](https://www.github.com/googleapis/python-storage/commit/8712da84c93600a736e72a097c42a49b4724347d))
+
 ## [1.26.0](https://www.github.com/googleapis/python-storage/compare/v1.25.0...v1.26.0) (2020-02-12)
 
 
