@@ -114,7 +114,7 @@ class Client(ClientWithProject):
 
         if no_project:
             self.project = None
-        self._connection = Connection(self, **kw_args)
+        self._connection = Connection(self, kw_args)
         self._batch_stack = _LocalStack()
 
     @classmethod
